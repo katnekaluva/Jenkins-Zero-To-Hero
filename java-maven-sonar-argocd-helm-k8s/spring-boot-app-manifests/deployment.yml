@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: narendrakn/dockerimages:replaceImageTag
+        image: narendrakn/dockerimages:60
         ports:
         - containerPort: 8080
 ---               
